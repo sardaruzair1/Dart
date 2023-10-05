@@ -5,6 +5,7 @@ void main(){
   persons = names.map((e) => Person(e)).toList();
   print(persons);
   print(persons[0].name);
+  print(persons.where((element) => element.name == "a").toList());
 }
 class Person {
   String name;
