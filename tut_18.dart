@@ -32,7 +32,8 @@ Map<String, dynamic> carData = {
   "model":"xx",
   "color":"black",
   "is_auto":true,
-};
+}; 
+// facrory return
 Car car2 = Car.fromJson(carData);
 print(car2.model);
 }
